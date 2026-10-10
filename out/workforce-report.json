@@ -1,0 +1,702 @@
+{
+  "connector": "official_annual_report_workforce_v1",
+  "eligible": 90,
+  "accepted": 79,
+  "status_counts": {
+    "accepted": 79,
+    "error": 10,
+    "conflicting_employee_counts": 1
+  },
+  "claim_boundary": "Latest official PDF, exact organisation number in document, company-scope employee phrase only; group phrases and conflicts abstain.",
+  "company_results": [
+    {
+      "organisation_number": "985589003",
+      "status": "accepted",
+      "workforce_value": 3,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "935095190",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "997830792",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "998487099",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "925800023",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "888567232",
+      "status": "accepted",
+      "workforce_value": 1,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "926320459",
+      "status": "accepted",
+      "workforce_value": 1.71,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "982942942",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "982669251",
+      "status": "error",
+      "error": "TypeError: sequence item 7: expected str instance, NoneType found"
+    },
+    {
+      "organisation_number": "936056210",
+      "status": "accepted",
+      "workforce_value": 1,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "995354314",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "924725834",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "926311735",
+      "status": "error",
+      "error": "TypeError: sequence item 12: expected str instance, NoneType found"
+    },
+    {
+      "organisation_number": "917364907",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "930132764",
+      "status": "error",
+      "error": "TypeError: sequence item 6: expected str instance, NoneType found"
+    },
+    {
+      "organisation_number": "989202723",
+      "status": "accepted",
+      "workforce_value": 0.5,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "822532152",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "977171962",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "988814415",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "932799650",
+      "status": "accepted",
+      "workforce_value": 1,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "988263486",
+      "status": "accepted",
+      "workforce_value": 1,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "816559472",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "919455144",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "930355496",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "935107989",
+      "status": "error",
+      "error": "TypeError: sequence item 7: expected str instance, NoneType found"
+    },
+    {
+      "organisation_number": "916544472",
+      "status": "accepted",
+      "workforce_value": 1,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "934438450",
+      "status": "error",
+      "error": "TypeError: sequence item 6: expected str instance, NoneType found"
+    },
+    {
+      "organisation_number": "936514545",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "920213561",
+      "status": "accepted",
+      "workforce_value": 1,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "935013623",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "933460371",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "834120852",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "914561302",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "977539366",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "990446539",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "999288448",
+      "status": "accepted",
+      "workforce_value": 1,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "988415677",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "993515159",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "914968283",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "890546242",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "899322932",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "921704593",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "925606235",
+      "status": "error",
+      "error": "TypeError: sequence item 7: expected str instance, NoneType found"
+    },
+    {
+      "organisation_number": "891742622",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "896331922",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "913951867",
+      "status": "error",
+      "error": "TypeError: sequence item 8: expected str instance, NoneType found"
+    },
+    {
+      "organisation_number": "928238407",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "946686166",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "924920963",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "922199477",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "928309371",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "927210657",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "980263681",
+      "status": "accepted",
+      "workforce_value": 3,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "929647785",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "935780462",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "992458062",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "991918019",
+      "status": "accepted",
+      "workforce_value": 1,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "935845432",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "827340162",
+      "status": "accepted",
+      "workforce_value": 2,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "941305989",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "988573949",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "999111173",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "928357007",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "983885748",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "817206662",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "933787141",
+      "status": "error",
+      "error": "TypeError: sequence item 7: expected str instance, NoneType found"
+    },
+    {
+      "organisation_number": "991429999",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "928996239",
+      "status": "accepted",
+      "workforce_value": 1,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "929634691",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "930847097",
+      "status": "accepted",
+      "workforce_value": 5,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "989264087",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "934549392",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "933989208",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "916804261",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "930856916",
+      "status": "error",
+      "error": "TypeError: sequence item 13: expected str instance, NoneType found"
+    },
+    {
+      "organisation_number": "927356783",
+      "status": "accepted",
+      "workforce_value": 1,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "916663242",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "923094377",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "815699912",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "887325022",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "987602945",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "958589174",
+      "status": "error",
+      "error": "TypeError: sequence item 12: expected str instance, NoneType found"
+    },
+    {
+      "organisation_number": "929346769",
+      "status": "conflicting_employee_counts",
+      "cache_hit": true,
+      "pages": 19,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "991972889",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "912825124",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "932072602",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "923106308",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "936245064",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "986308970",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    },
+    {
+      "organisation_number": "914810795",
+      "status": "accepted",
+      "workforce_value": 0,
+      "measure": "full_time_equivalents",
+      "cache_hit": true,
+      "ocr_used": true
+    }
+  ]
+}
