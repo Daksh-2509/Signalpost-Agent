@@ -78,6 +78,18 @@ class SafeRedirectHandler(urllib.request.HTTPRedirectHandler):
 SAFE_OPENER = urllib.request.build_opener(SafeRedirectHandler())
 
 
+
+def detect_tech_stack(html: str) -> list[str]:
+    stack = set()
+    html_lower = html.lower()
+    if "wp-content" in html_lower or '<meta name="generator" content="wordpress' in html_lower: stack.add("WordPress")
+    if "cdn.shopify.com" in html_lower or "shopify.com" in html_lower: stack.add("Shopify")
+    if "wix.com" in html_lower or "wixsite" in html_lower: stack.add("Wix")
+    if "google-analytics.com" in html_lower or "gtag(" in html_lower: stack.add("Google Analytics")
+    if "fbq(" in html_lower or "fbevents.js" in html_lower: stack.add("Meta Pixel")
+    return sorted(list(stack))
+
+
 def normalize_homepage(value: str | None) -> str | None:
     value = str(value or "").strip()
     if not value:
@@ -352,8 +364,11 @@ def fetch_website(url: str | None, *, timeout: float = 15.0, max_bytes: int = 2_
                 all_emails.update(p["contacts"]["emails"])
                 all_phones.update(p["contacts"]["phones"])
         
-        value["all_emails"] = sorted(all_emails)[:20]
+                value["all_emails"] = sorted(all_emails)[:20]
         value["all_phones"] = sorted(all_phones)[:20]
+        value["technology_stack"] = detect_tech_stack(html)
+        value["social_profiles_count"] = len(value.get("social_links", []))
+        value["tech_stack_detected"] = len(value["technology_stack"])
 
         value["pages"] = pages
         value["social_links"] = list({(item["platform"], item["url"]): item for item in social}.values())
