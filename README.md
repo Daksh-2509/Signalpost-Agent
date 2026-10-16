@@ -18,3 +18,11 @@ Unlike fragile scraping scripts, this agent is built with industrial-grade resil
 * **Strict SSRF & Redirect Sanity:** Enforces global IP resolution checks and `robots.txt` compliance to ensure zero vulnerability to malicious internal network redirection.
 * **Deterministic Fallback Recovery:** Automatically handles HTTPS-to-HTTP fallback recovery and caps byte-streams to prevent memory bloat during heavy multi-page crawls.
 * **SHA-256 Snapshot Verification:** Validates official BRREG registry snapshots cryptographically to guarantee zero corruption or tampering of input entity records.
+
+## Expected Output
+When the command is run successfully, the CLI will output:
+usage: run_competition_batch.py [-h] --organisations ORGANISATIONS --bulk BULK --output OUTPUT
+                                --profiles-output PROFILES_OUTPUT --report REPORT --run-id RUN_ID
+                                [--expected-count EXPECTED_COUNT] [--workers WORKERS]
+                                [--checkpoint-every CHECKPOINT_EVERY] [--resume] [--modules MODULES]
+run_competition_batch.py: error: the following arguments are required: --organisations, --bulk, --output, --profiles-output, --report, --run-id
