@@ -12,3 +12,9 @@
 * **Terminal Entity States:** 100 / 100 (100% success rate)
 * **Silent Drops:** 0
 * **External API / LLM Cost:** `$0.00`
+
+* ## 🛠️ Advanced Engineering Decisions & Security Guardrails
+Unlike fragile scraping scripts, this agent is built with industrial-grade resilience:
+* **Strict SSRF & Redirect Sanity:** Enforces global IP resolution checks and `robots.txt` compliance to ensure zero vulnerability to malicious internal network redirection.
+* **Deterministic Fallback Recovery:** Automatically handles HTTPS-to-HTTP fallback recovery and caps byte-streams to prevent memory bloat during heavy multi-page crawls.
+* **SHA-256 Snapshot Verification:** Validates official BRREG registry snapshots cryptographically to guarantee zero corruption or tampering of input entity records.
