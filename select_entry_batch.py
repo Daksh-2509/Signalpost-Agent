@@ -2,6 +2,7 @@
 """Select a reproducible entry batch from the public Signalpost universe."""
 
 from __future__ import annotations
+from enricher import get_verified_footprint
 
 import argparse
 import gzip
@@ -30,9 +31,18 @@ def main() -> None:
     chosen = random.Random(args.seed).sample(rows, args.count)
     output = Path(args.output)
     output.parent.mkdir(parents=True, exist_ok=True)
+    
     with output.open("w", encoding="utf-8") as handle:
         for row in chosen:
+            company_name = row.get("name") or row.get("company_name", "")
+            company_number = row.get("company_number", "")
+            
+            if company_name:
+                print(f"Searching web footprint for: {company_name}...")
+                row["verified_footprint"] = get_verified_footprint(company_name, company_number)
+                
             handle.write(json.dumps(row, ensure_ascii=False, separators=(",", ":")) + "\n")
+            
     print(f"Wrote {len(chosen):,} companies to {output}")
 
 
