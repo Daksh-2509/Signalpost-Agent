@@ -1,0 +1,61 @@
+{
+  "connector": "official_annual_report_workforce_v1",
+  "eligible": 10,
+  "accepted": 0,
+  "status_counts": {
+    "error": 10
+  },
+  "claim_boundary": "Latest official PDF, exact organisation number in document, company-scope employee phrase only; group phrases and conflicts abstain.",
+  "company_results": [
+    {
+      "organisation_number": "985589003",
+      "status": "error",
+      "error": "CalledProcessError: Command '['pdftoppm', '-f', '1', '-l', '5', '-jpeg', '-r', '130', 'out\\\\pdf-cache\\\\985589003-2025.pdf', 'C:\\\\Users\\\\DAKSHP~1\\\\AppData\\\\Local\\\\Temp\\\\signalpost-annual-ocr-_gw9tin2\\\\"
+    },
+    {
+      "organisation_number": "935095190",
+      "status": "error",
+      "error": "CalledProcessError: Command '['pdftoppm', '-f', '1', '-l', '4', '-jpeg', '-r', '130', 'out\\\\pdf-cache\\\\935095190-2025.pdf', 'C:\\\\Users\\\\DAKSHP~1\\\\AppData\\\\Local\\\\Temp\\\\signalpost-annual-ocr-w69o1bio\\\\"
+    },
+    {
+      "organisation_number": "997830792",
+      "status": "error",
+      "error": "CalledProcessError: Command '['pdftoppm', '-f', '1', '-l', '5', '-jpeg', '-r', '130', 'out\\\\pdf-cache\\\\997830792-2025.pdf', 'C:\\\\Users\\\\DAKSHP~1\\\\AppData\\\\Local\\\\Temp\\\\signalpost-annual-ocr-5bejd5co\\\\"
+    },
+    {
+      "organisation_number": "998487099",
+      "status": "error",
+      "error": "CalledProcessError: Command '['pdftoppm', '-f', '1', '-l', '5', '-jpeg', '-r', '130', 'out\\\\pdf-cache\\\\998487099-2025.pdf', 'C:\\\\Users\\\\DAKSHP~1\\\\AppData\\\\Local\\\\Temp\\\\signalpost-annual-ocr-s2k02xg9\\\\"
+    },
+    {
+      "organisation_number": "925800023",
+      "status": "error",
+      "error": "CalledProcessError: Command '['pdftoppm', '-f', '1', '-l', '5', '-jpeg', '-r', '130', 'out\\\\pdf-cache\\\\925800023-2025.pdf', 'C:\\\\Users\\\\DAKSHP~1\\\\AppData\\\\Local\\\\Temp\\\\signalpost-annual-ocr-7mcfhexv\\\\"
+    },
+    {
+      "organisation_number": "888567232",
+      "status": "error",
+      "error": "CalledProcessError: Command '['pdftoppm', '-f', '1', '-l', '5', '-jpeg', '-r', '130', 'out\\\\pdf-cache\\\\888567232-2025.pdf', 'C:\\\\Users\\\\DAKSHP~1\\\\AppData\\\\Local\\\\Temp\\\\signalpost-annual-ocr-64_h7i86\\\\"
+    },
+    {
+      "organisation_number": "926320459",
+      "status": "error",
+      "error": "CalledProcessError: Command '['pdftoppm', '-f', '1', '-l', '5', '-jpeg', '-r', '130', 'out\\\\pdf-cache\\\\926320459-2025.pdf', 'C:\\\\Users\\\\DAKSHP~1\\\\AppData\\\\Local\\\\Temp\\\\signalpost-annual-ocr-1ccgwhjt\\\\"
+    },
+    {
+      "organisation_number": "982942942",
+      "status": "error",
+      "error": "CalledProcessError: Command '['pdftoppm', '-f', '1', '-l', '5', '-jpeg', '-r', '130', 'out\\\\pdf-cache\\\\982942942-2025.pdf', 'C:\\\\Users\\\\DAKSHP~1\\\\AppData\\\\Local\\\\Temp\\\\signalpost-annual-ocr-f89925tj\\\\"
+    },
+    {
+      "organisation_number": "982669251",
+      "status": "error",
+      "error": "CalledProcessError: Command '['pdftoppm', '-f', '1', '-l', '5', '-jpeg', '-r', '130', 'out\\\\pdf-cache\\\\982669251-2025.pdf', 'C:\\\\Users\\\\DAKSHP~1\\\\AppData\\\\Local\\\\Temp\\\\signalpost-annual-ocr-hbw2kjms\\\\"
+    },
+    {
+      "organisation_number": "936056210",
+      "status": "error",
+      "error": "CalledProcessError: Command '['pdftoppm', '-f', '1', '-l', '5', '-jpeg', '-r', '130', 'out\\\\pdf-cache\\\\936056210-2025.pdf', 'C:\\\\Users\\\\DAKSHP~1\\\\AppData\\\\Local\\\\Temp\\\\signalpost-annual-ocr-756unyv8\\\\"
+    }
+  ]
+}

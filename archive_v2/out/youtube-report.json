@@ -1,0 +1,10 @@
+{
+  "connector": "official_youtube_channel_v1",
+  "counts": {
+    "searched": 50,
+    "exact_channels": 1,
+    "abstained": 49,
+    "errors": 0
+  },
+  "observations_written": 1
+}

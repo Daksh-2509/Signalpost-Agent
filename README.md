@@ -1,28 +1,46 @@
 ![Signalpost Architecture](Architecture.png)
 
-# Signalpost Round 1: Deterministic Norway Company Intelligence Agent
+# Signalpost V3 Enterprise: Corporate Intelligence Agent
 **Author:** Daksh Paliwal
 
-## 🏛️ System Architecture (100% Deterministic, Zero-LLM Pipeline)
-* **0% Hallucination Guarantee:** Powered by deterministic DOM parsing (`BeautifulSoup4`), structured metadata (`JSON-LD`), and strict regular expressions.
-* **16-Signature B2B Tech Stack Telemetry:** Passively identifies CMS, E-commerce, and Analytics infrastructure (`WordPress`, `Shopify`, `Webflow`, `Next.js`, `HubSpot`, `Google Tag Manager`, etc.).
-* **Multi-Layer Contact Extraction:** Pulls contacts from `mailto`/`tel`, JSON-LD schemas, and footer text across priority internal subpages.
+## 🌟 V3 Enterprise Upgrades (Hybrid AI Pipeline)
+This V3 iteration integrates high-speed AI reasoning with strict deterministic validation to satisfy enterprise research requirements:
+- **Zero-Jargon Executive Summaries:** Integrates Llama 3.3 70B (via Groq API) to generate concise, plain-language corporate overviews based strictly on verified inputs.
+- **Web & Social Footprint Verification:** Actively searches and DOM-parses websites, LinkedIn, and X (Twitter) profiles, retaining links only if they explicitly contain the target company's name or registry number.
+- **Strict News Filtering:** Acquires recent market news and applies a strict semantic filter, dropping any article that does not explicitly name the company in the title or body.
 
-## 📊 Verified Benchmark Telemetry
-* **Terminal Entity States:** 100 / 100 (100% success rate)
-* **Silent Drops:** 0
-* **External API / LLM Cost:** `$0.00`
+## 🏛️ Core System Architecture & Security Guardrails
+Built upon our resilient V1/V2 deterministic foundation, this agent features industrial-grade telemetry and security:
+- **Deterministic Fallbacks:** Powered by structured metadata (`JSON-LD`), `BeautifulSoup4`, and strict regular expressions for robust DOM parsing.
+- **16-Signature B2B Tech Stack Telemetry:** Passively identifies CMS, E-commerce, and Analytics infrastructure (`WordPress`, `Shopify`, `Webflow`, `Next.js`, `HubSpot`, `Google Tag Manager`, etc.).
+- **Strict SSRF & Redirect Sanity:** Enforces global IP resolution checks and `robots.txt` compliance to ensure zero vulnerability to malicious internal network redirection.
+- **SHA-256 Snapshot Verification:** Validates official registry snapshots cryptographically to guarantee zero corruption or tampering of input entity records.
 
-* ## 🛠️ Advanced Engineering Decisions & Security Guardrails
-Unlike fragile scraping scripts, this agent is built with industrial-grade resilience:
-* **Strict SSRF & Redirect Sanity:** Enforces global IP resolution checks and `robots.txt` compliance to ensure zero vulnerability to malicious internal network redirection.
-* **Deterministic Fallback Recovery:** Automatically handles HTTPS-to-HTTP fallback recovery and caps byte-streams to prevent memory bloat during heavy multi-page crawls.
-* **SHA-256 Snapshot Verification:** Validates official BRREG registry snapshots cryptographically to guarantee zero corruption or tampering of input entity records.
+## ⚙️ Quick Start & Expected Output
+To evaluate the V3 Enterprise pipeline:
+1. Insert your evaluator Groq API key into the `GROQ_API_KEY` placeholder in `run.py`.
+2. Install dependencies and execute the runner:
 
-## Expected Output
-When the command is run successfully, the CLI will output:
-usage: run_competition_batch.py [-h] --organisations ORGANISATIONS --bulk BULK --output OUTPUT
-                                --profiles-output PROFILES_OUTPUT --report REPORT --run-id RUN_ID
-                                [--expected-count EXPECTED_COUNT] [--workers WORKERS]
-                                [--checkpoint-every CHECKPOINT_EVERY] [--resume] [--modules MODULES]
-run_competition_batch.py: error: the following arguments are required: --organisations, --bulk, --output, --profiles-output, --report, --run-id
+    pip install duckduckgo_search groq beautifulsoup4 requests
+    python run.py
+
+**Expected CLI Output:**
+
+    Starting Signalpost V3 Enterprise run...
+
+    Processing: [Company Name]
+      -> Verifying web footprint...
+      -> Fetching relevant news...
+      -> Generating Llama 3.3 summary...
+
+    Success! V3 Run complete. Output saved to v3-submission.jsonl
+
+## 🚀 Advanced Features & Experimental Work
+While `run.py` and `enricher.py` fulfill the core V3 Enterprise requirements, please check the following directories for our deeper iterations and project history:
+
+* **`/advanced_features`:** Contains our V3 experimental showcases, including:
+  * **Stealth & Browser Automation:** Scripts like `test_stealth.py` and `test_js_browser.py` exploring advanced scraping pipelines.
+  * **AI Extraction Prototypes:** `v4_ai_processor.py` and `test_ai_extractor.py` demonstrating future pipeline architectures.
+  * **Global Datasets:** Experimental processing of the Norwegian Brønnøysund Register Centre dataset (`brreg-enheter.csv`).
+
+* **`/archive_v2`:** Contains our unmodified previous submission milestone (Deterministic Norway Agent) to demonstrate project evolution and iteration history.
